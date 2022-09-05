@@ -1,50 +1,72 @@
+/* ==== Major fixes starts here ===== */
+
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
 }
 
+/* ==== Major fixes ends here ===== */
 
-.firstdiv{
-    /* height: 500px; */
+/* ==== First section starts here ==== */
+
+.firstsection{
     height: 87vh;
-
-/* border: 3px solid var(--black-color); */
-
 display: flex;
-/* by deafault */
-flex-direction: row;
-flex-wrap: nowrap;
+
 }
 
-.first-leftdiv{
+.firstsection-leftdiv{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     width: 50%;
     height: 100%;
     background: var(--gray-color);
 }
 
-.first-rightdiv{
+.firstsection-rightdiv{
     height: 100%;
-    /* using color as a background */
-    /* background: var(--main-color); */
-
-    /*using image as background  */
-    /* background: url('./images/image1.jpg'); */
-    /* background: linear-gradient(to right, #f46b45, #eea849); */
-
-    /* Using background image with linear gradient */
-   /* background: linear-gradient(to right, rgba(244, 107, 69,0.4), rgba(238, 168, 73,0.4)),url('./images/image1.jpg'); */
    background: var(--linear-gradient),url('./images/image1.jpg');
-
     width: 50%;
     background-size: cover;
     background-position: bottom left;
-
-
-
-    /* Background image properties */
-    /* background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: cover; */
 }
+.link-holder{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--whtie-color);
+    padding: 20px 0;
+}
+.logo{
+    margin-bottom: 30px;
+}
+span{
+    color: var(--main-color);
+}
+.line{
+    background: var(--main-color);
+    padding: 8px;
+    width: 224px;
+}
+.headingwriteup{
+    margin: 30px 0;
+}
+
+/* ==== First section ends here ==== */
+
+/* ==== Second section starts here ==== */
+/* ==== Second section ends here ==== */
+
+/* ==== Third section starts here ==== */
+/* ==== Third section ends here ==== */
+
+/* ==== Footer section starts here ==== */
+/* ==== Footer section ends here ==== */
+
 
 

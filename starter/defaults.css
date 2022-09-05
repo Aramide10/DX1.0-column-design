@@ -1,8 +1,7 @@
 :root{
     --main-color: #FF6347;
     --gray-color:#D9D9D9;
-    --linear-gradient:linear-gradient(to right, rgba(244, 107, 69,0.4), rgba(255, 99, 71,0.4));
+    --linear-gradient:linear-gradient(to right, rgba(244, 107, 69,0.4),rgba(255, 99, 71,0.4) );
     --black-color: #000;
     --whtie-color:#fff;
 }
-/* --linear-gradient: linear-gradient(to right, rgba(255, 81, 47,0.5), rgba(255, 99, 71,0.5)); */

@@ -105,6 +105,7 @@ span{
 .thirdsection{
     display: flex;
     justify-content: center;
+    padding: 30px 0;
 }
 .thirdsection-rightdiv {
     width: 340px;
@@ -129,6 +130,25 @@ span{
 /* ==== Third section ends here ==== */
 
 /* ==== Footer section starts here ==== */
+footer{
+    color:var(--whtie-color);
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px;
+
+}
+    
+    .footericons-container{
+        /* border: 3px solid black; */
+        width: 200px;
+        text-align: center;
+    }
+    .footericons{
+        font-size: 25px;
+        margin: 0 5px;
+    }
 /* ==== Footer section ends here ==== */
 
 
